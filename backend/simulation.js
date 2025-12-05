@@ -64,8 +64,8 @@ export function startSimulation() {
     initializeStudents();
   }
 
-  // Move students every 20 seconds
-  movementInterval = setInterval(moveStudents, 20000);
+  // Move students every 5 seconds
+  movementInterval = setInterval(moveStudents, 5000);
 
   // Cleanup old events every 30 seconds
   cleanupInterval = setInterval(cleanupOldEvents, 30000);
